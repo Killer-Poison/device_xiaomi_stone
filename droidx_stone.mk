@@ -19,6 +19,11 @@ $(call inherit-product, device/xiaomi/stone/device.mk)
 DROIDX_BUILD_TYPE := UNOFFICIAL
 DROIDX_GAPPS := true
 
+# Device props
+TARGET_SUPPORTS_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := droidx_stone
 PRODUCT_DEVICE := stone
